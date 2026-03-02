@@ -1,6 +1,6 @@
 Title:             Run MPI
 Command:           C:\Windows\System32\cmd.exe
-Arguments:         /k mpiexec -n 4 $(TargetName)
+Arguments:         /k mpiexec -n 2 $(TargetName)
 Initial directory: $(TargetDir)
 
 
